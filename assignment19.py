@@ -15,7 +15,7 @@ def average_word_length(file_path):
         return None
 
 if __name__ == "__main__":
-    file_path = "daily_logs.txt" 
+    file_path = "assignment10.py" 
     avg_length = average_word_length(file_path)
     
     if avg_length is not None:
