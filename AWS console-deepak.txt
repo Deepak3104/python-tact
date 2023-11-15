@@ -1,0 +1,15 @@
+AWS
+  <https://youtu.be/gUaNRNjLkcM>
+  
+  1. It is a web application that provides access for users to manage and utilize various AWS services.
+  2. AWS is a leading cloud service provider in the public cloud domain.
+  3. It offers services like computation ,storage ,management ,networking and demand services like application hosting and building
+  
+--------------------------------------/
+AWS management console
+
+   <https://youtu.be/gUaNRNjLkcM>
+
+   1.It is a web application that comprises and refers to a broad collection of service consoles for managing AWS resources.
+   2.The Management Console provides a number of organized and human-friendly ways to review, monitor, and interact with resources that you have created using 
+     developer tools,like the AWS Command Line Interface (CLI) and AWS CloudFormation templates.
