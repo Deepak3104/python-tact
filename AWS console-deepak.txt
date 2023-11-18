@@ -13,3 +13,11 @@ AWS management console
    1.It is a web application that comprises and refers to a broad collection of service consoles for managing AWS resources.
    2.The Management Console provides a number of organized and human-friendly ways to review, monitor, and interact with resources that you have created using 
      developer tools,like the AWS Command Line Interface (CLI) and AWS CloudFormation templates.
+
+--------------------------------------/
+EC2(Elastic Cloud Compute)
+
+   <>
+
+   1.Amazon EC2 provides on-demand, scalable computing capacity in the AWS Cloud. 
+   2.
