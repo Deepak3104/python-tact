@@ -1,12 +1,22 @@
 import cv2 
-'''import PIL
-from PIL import Image'''
+from PIL import Image
+import piexif
+
+image1 = Image.open('/home/deepak/Downloads/p1.png')
+exifData = image1._getexif()
+
+if exifData is None:
+    exifData = {}
 
 filepath = "/home/deepak/Downloads/p1.png"
 image = cv2.imread(filepath) 
 height, width = image.shape[:2] 
 print(height,width)
 
-'''image = Image.open('/home/deepak/Downloads/p1.png')
-exifData = image._getexif()
-print('exifData = ' + str(exifData))'''
+exifData['height'] = height
+exifData['width'] = width
+exifDataBytes = piexif.dump(exifData)
+
+image1.save('image.jpg', format='png', exif=exifDataBytes)
+
+print(exifData)
